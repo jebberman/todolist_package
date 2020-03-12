@@ -1,7 +1,6 @@
 {
     "name": "jebpkgs/todolist",
     "description": "This is a test laravel todo list package.",
-    "type": "composer-plugin",
     "authors": [
         {
             "name": "jebberman",
