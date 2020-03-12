@@ -1,16 +1,16 @@
 {
     "name": "jebpkgs/todolist",
-    "description": "This is a test package.",
+    "description": "This is a test laravel todo list package.",
     "type": "composer-plugin",
     "authors": [
         {
-            "name": "jeb saldariega",
-            "email": "jebs@codev.com"
+            "name": "jebberman",
+            "email": "saldariega.jam@gmail.com"
         }
     ],
     "minimum-stability": "dev",
     "require": {
-        "laravelcollective/html": "^5.5"
+        "laravelcollective/html": "^6.1"
     },
     "extra": {
         "laravel": {
