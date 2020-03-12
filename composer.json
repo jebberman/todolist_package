@@ -1,0 +1,27 @@
+{
+    "name": "jebpkgs/todolist",
+    "description": "This is a test package.",
+    "type": "composer-plugin",
+    "authors": [
+        {
+            "name": "jeb saldariega",
+            "email": "jebs@codev.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laravelcollective/html": "^5.5"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jebpkgs\\Todolist\\TodoListServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Jebpkgs\\Todolist\\": "src/"
+        }
+    }
+}
